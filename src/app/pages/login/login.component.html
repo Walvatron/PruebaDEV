@@ -1,6 +1,5 @@
 
 <h3 class="text-center">INICIO DE SESION</h3>
-
 <hr>
 <form autocomplete="off" (ngSubmit)="guardar()" [formGroup]="forma">
 
@@ -55,7 +54,9 @@
     <div class="form-group row">
         <label class="col-2 col-form-label">&nbsp;</label>
         <div class="input-group col-md-8">
-            <ion-button [routerLink]="['/home']">Ingresar</ion-button>
+            <button type="submit" class="btn btn-outline-primary btn-block">
+        Guardar
+      </button>
         </div>
     </div>
 
